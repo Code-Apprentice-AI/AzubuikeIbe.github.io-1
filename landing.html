@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" 
+    crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/landing.css">
+    <link rel="icon" href="./images/game.ico" sizes="any" type="image/ico">
+    <title>Landing Page</title>
+   
+    
+</head>
+<body onLoad="window.status=alert('Welcome! Register or Login to accesss our website.'); return true">
+    <header>
+       
+        <div class="wrapper header-wrapper">
+            
+            <nav class="logo">
+                <img src="./images/logo.png" width="125px" alt="">
+            </nav>
+            <label for="theme-checkbox" class="theme-toggler">
+                <input type="checkbox" id="theme-checkbox" class="theme-checkbox">
+                <div class="switch"></div>
+            </label>
+           
+        </div>
+       
+    </header>
+    <main>
+        
+        <div class="wrapper">
+           <div class="hero">
+               <div class="hero__intro col-2">
+                   
+                   <h2>AIGamer Shop</h2>
+
+                   <p>
+                       <iframe width="580" height="315" src="https://www.youtube.com/embed/U7dxzKa_s7U?start=18" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   </p>
+             <!---      <p> 
+                       Select from the wide range of premium game consoles and accessories. <br> Put your money where your mouth is!
+                   </p>   --->
+                   <p>
+                       <audio controls>
+                 <!---           <embed src="./sound/spaceship.ogg" type="audio/ogg" hidden="true"></embe> -->
+                            <source src="./sound/horse.ogv" type="audio/ogg">
+                          <embed src="./sound/spaceship.ogg" type="audio/ogg" hidden="true"></embe>
+								<embed src="./sound/spaceship.mp3" type="audio/mpeg"  hidden="true"></embe>
+								<embed src="./sound/horse.ogv" type="audio/ogg"  hidden="true"></embe>
+                   </p>
+                   <div class="btncover">
+                <div class="btn">
+                   <button onclick="window.location.href='http://localhost/shop/signup.html';" class="btn btn-cta"><i class="fas fa-sign-in-alt"></i> 
+                    Log In</button>
+                    </div>
+                    <div class="btn">
+                    <button onclick="window.location.href='http://localhost/shop/signup.html';" class="btn btn-cta"><i class="fas fa-user-plus"></i>
+                Sign Up</button>
+                </div>
+                </div>
+
+               
+               </div>
+              
+                <div class="hero__photo col-2">
+                    <img src="./images/ps4a.png" alt="">
+                </div>
+              
+           </div> 
+        </div>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>
