@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,372 +8,368 @@
     <title>Game Store | Online Game Consoles Retail Shop</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;900&display=swap" rel="stylesheet">   
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="icon" href="./img/game.ico" sizes="any" type="image/ico">
     <link rel="stylesheet" href="css/style.css">
-     
+
 </head>
+
 <body>
-    <!---------------MAIN-CONTAINER--------------->
-            <div class="header">
-                <div class="container">
+    <!--            MAIN-CONTAINER         -->
+    <div class="header">
+        <div class="container">
 
-                    <!---------------MAIN-NAVIGATION--------------->
-                        <div class="navbar">
-                            <div class="logo">
-                                <img src="./images/logo.png" width="125px" alt="">
-                            </div>
-                            <nav>
-                                <ul id="MenuItems">
-                                    <li><a href="http://localhost/shop/index.html#">Home</a></li>
-                                    <li><a href="http://localhost/shop/products.html">Products</a></li>
-                                    <li><a href="#">About</a></li>
-                                    <li><a href="#">Contact</a></li>
-                                    <li><a href="#">Account</a></li>
-                                </ul>
-                            </nav>
-                                    <i class="fa fa-heart-o"></i>
-                                    <i class="fa fa-shopping-bag"></i>
-                                    <i class="fa fa-user-o"></i>
-                    <!--       <img src="./images/cart.png" width="30px" height="30px" alt="Shopping Cart">      --->
-                            <img src="./images/menu.png"  onclick="menutoggle()" class="menu_icon" alt="Menu Icon">
-                        </div>
-
+            <!--             MAIN-NAVIGATION          -->
+            <div class="navbar">
+                <div class="logo">
+                    <img src="./images/logo.png" width="125" alt="">
                 </div>
-
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="http://localhost/shop/index.html#">Home</a></li>
+                        <li><a href="http://localhost/shop/products.html">Products</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Account</a></li>
+                    </ul>
+                </nav>
+                <i class="fa fa-heart-o"></i>
+                <i class="fa fa-shopping-bag"></i>
+                <i class="fa fa-user-o"></i>
+                <!--       <img src="./images/cart.png" width="30px" height="30px" alt="Shopping Cart">      -->
+                <img src="./images/menu.png" onclick="menutoggle()" class="menu_icon" alt="Menu Icon">
             </div>
 
+        </div>
 
-    
-                                   <!-------------------CART ITEMS DETAILS------------->
-                    
-                    <div class="cart_items">
-                        <div class="small_container cart_page">
-                            <div class="row">
-                            <table>
-                                <tr>
-                                    <th>Product</th>
-                                    <th>Quantity</th>
-                                    <th>Subtotal</th>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div class="cart_info">
-                                            <img src="./images/1.jpg" alt="xbox">
-                                            <div>
-                                                <p>Xbox Series S</p>
-                                                <small>Price: €750.00</small>
-                                                <br>
-                                                <a href="#">Remove</a>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td><input type="number" value="1"></td>
-                                    <td>€750.00</td>
-                                </tr>
+    </div>
 
-                                 <tr>
-                                    <td>
-                                        <div class="cart_info">
-                                            <img src="./images/8.jpg" alt="xbox">
-                                            <div>
-                                                <p>Xbox Series S</p>
-                                                <small>Price: €600.00</small>
-                                                <br>
-                                                <a href="#">Remove</a>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td><input type="number" value="1"></td>
-                                    <td>€600.00</td>
-                                </tr>
 
-                                 <tr>
-                                    <td>
-                                        <div class="cart_info">
-                                            <img src="./images/7.jpg" alt="xbox">
-                                            <div>
-                                                <p>Xbox Series S</p>
-                                                <small>Price: €450.00</small>
-                                                <br>
-                                                <a href="#">Remove</a>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td><input type="number" value="1"></td>
-                                    <td>€450.00</td>
-                                </tr>
 
-                                 <tr>
-                                    <td>
-                                        <div class="cart_info">
-                                            <img src="./images/4.jpg" alt="xbox">
-                                            <div>
-                                                <p>Xbox Series S</p>
-                                                <small>Price: €300.00</small>
-                                                <br>
-                                                <a href="#">Remove</a>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td><input type="number" value="1"></td>
-                                    <td>€300.00</td>
-                                </tr>
+    <!--           CART ITEMS DETAILS                -->
 
-                                 <tr>
-                                    <td>
-                                        <div class="cart_info">
-                                            <img src="./images/2.jpg" alt="xbox">
-                                            <div>
-                                                <p>Xbox Series S</p>
-                                                <small>Price: €450.00</small>
-                                                <br>
-                                                <a href="#">Remove</a>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td><input type="number" value="1"></td>
-                                    <td>€450.00</td>
-                                </tr>
-
-                                <tr>
-                                    <td>
-                                        <div class="cart_info">
-                                            <img src="./images/6.jpg" alt="xbox">
-                                            <div>
-                                                <p>Xbox Series S</p>
-                                                <small>Price: €700.00</small>
-                                                <br>
-                                                <a href="#">Remove</a>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td><input type="number" value="1"></td>
-                                    <td>€700.00</td>
-                                </tr>
-
-                                <tr>
-                                    <td>
-                                        <div class="cart_info">
-                                            <img src="./images/7.jpg" alt="xbox">
-                                            <div>
-                                                <p>Xbox Series S</p>
-                                                <small>Price: €600.00</small>
-                                                <br>
-                                                <a href="#">Remove</a>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td><input type="number" value="1"></td>
-                                    <td>€600.00</td>
-                                </tr>
-                            </table>
-
-                            <div class="total_price">
-                                <table>
-                                    <tr>
-                                        <td>Subtotal:</td>
-                                        <td>€5800.00</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Tax:</td>
-                                        <td>€150.00</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Total:</td>
-                                        <td>€5950.00</td>
-                                    </tr>
-                                </table>
-                               
+    <div class="cart_items">
+        <div class="small_container cart_page">
+            <div class="row">
+                <table>
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Subtotal</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="cart_info">
+                                <img src="./images/1.jpg" alt="xbox">
+                                <div>
+                                    <p>Xbox Series S</p>
+                                    <small>Price: €750.00</small>
+                                    <br>
+                                    <a href="#">Remove</a>
+                                </div>
                             </div>
-                            <div class="btn_checkout">
-                                <button>PROCEED TO CHECKOUT</button>
+                        </td>
+                        <td><input type="number" value="1"></td>
+                        <td>€750.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div class="cart_info">
+                                <img src="./images/8.jpg" alt="xbox">
+                                <div>
+                                    <p>Xbox Series S</p>
+                                    <small>Price: €600.00</small>
+                                    <br>
+                                    <a href="#">Remove</a>
+                                </div>
                             </div>
-                            
-                          
-                            
-                        </div>
-                    </div>
-                    
+                        </td>
+                        <td><input type="number" value="1"></td>
+                        <td>€600.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div class="cart_info">
+                                <img src="./images/7.jpg" alt="xbox">
+                                <div>
+                                    <p>Xbox Series S</p>
+                                    <small>Price: €450.00</small>
+                                    <br>
+                                    <a href="#">Remove</a>
+                                </div>
+                            </div>
+                        </td>
+                        <td><input type="number" value="1"></td>
+                        <td>€450.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div class="cart_info">
+                                <img src="./images/4.jpg" alt="xbox">
+                                <div>
+                                    <p>Xbox Series S</p>
+                                    <small>Price: €300.00</small>
+                                    <br>
+                                    <a href="#">Remove</a>
+                                </div>
+                            </div>
+                        </td>
+                        <td><input type="number" value="1"></td>
+                        <td>€300.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div class="cart_info">
+                                <img src="./images/2.jpg" alt="xbox">
+                                <div>
+                                    <p>Xbox Series S</p>
+                                    <small>Price: €450.00</small>
+                                    <br>
+                                    <a href="#">Remove</a>
+                                </div>
+                            </div>
+                        </td>
+                        <td><input type="number" value="1"></td>
+                        <td>€450.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div class="cart_info">
+                                <img src="./images/6.jpg" alt="xbox">
+                                <div>
+                                    <p>Xbox Series S</p>
+                                    <small>Price: €700.00</small>
+                                    <br>
+                                    <a href="#">Remove</a>
+                                </div>
+                            </div>
+                        </td>
+                        <td><input type="number" value="1"></td>
+                        <td>€700.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div class="cart_info">
+                                <img src="./images/7.jpg" alt="xbox">
+                                <div>
+                                    <p>Xbox Series S</p>
+                                    <small>Price: €600.00</small>
+                                    <br>
+                                    <a href="#">Remove</a>
+                                </div>
+                            </div>
+                        </td>
+                        <td><input type="number" value="1"></td>
+                        <td>€600.00</td>
+                    </tr>
+                </table>
+
+                <div class="total_price">
+                    <table>
+                        <tr>
+                            <td>Subtotal:</td>
+                            <td>€5800.00</td>
+                        </tr>
+                        <tr>
+                            <td>Tax:</td>
+                            <td>€150.00</td>
+                        </tr>
+                        <tr>
+                            <td>Total:</td>
+                            <td>€5950.00</td>
+                        </tr>
+                    </table>
+
+                </div>
+                <div class="btn_checkout">
+                    <button>PROCEED TO CHECKOUT</button>
                 </div>
 
-                  
-                                
-                <!---------------PDF--------------->
 
-                  <div class="offer">
-           <div class="small_container">
-               <h2 class="title">Download Invoice</h2>
-                <div class="row">
-                    <div class="col-2">
-                                <a href="./files/4_ACS61_Timetable.pdf" download>
-                                    <img src="./images/pdf.png" width="160" height="350">
-                                </a>
-                    </div>
-                    <div class="col-2">
-                        <p>We also deliver your invoice to the email provided</p>
-                        <h1>Download Invoice</h1>
-                        <small>This invoice contains private information, please keep it out of reach of any third party. Also not that we do neither keep nor store any private information.</small>
-                        <a href="./files/4_ACS61_Timetable.pdf" class="btn">Download PDF Now &#8594</a>
-                    </div>
-                </div>
-           </div>
-       </div>
-                
 
-                
-    
-      <!---------------FEATURED-PRODUCTS--------------->
-      <div class="small_container">
-          <h2 class="title">Featured Products</h2>
-          <div class="row">
-              <div class="col-4">
-                  <a href="http://localhost/shop/single-product.html"><img src="./images/7.jpg" alt=""></a>
-                  <a href="http://localhost/shop/single-product.html"></a><h4>PlayStation 2 Slim</h4></a>
-                  <div class="rating">
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star-half-o"></i>
-                  <i class="fa fa-star-o"></i>
-                  </div>
-                  <p>€300.00</p>
-              </div>
-              <div class="col-4">
-                  <img src="./images/7.jpg" alt="">
-                  <h4>PlayStation 2 Slim</h4>
-                  <div class="rating">
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star-half-o"></i>
-                  <i class="fa fa-star-o"></i>
-                  <i class="fa fa-star-o"></i>
-                  </div>
-                  <p>€300.00</p>
-              </div>
-              <div class="col-4">
-                  <img src="./images/7.jpg" alt="">
-                  <h4>PlayStation 2 Slim</h4>
-                  <div class="rating">
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star-o"></i>
-                  <i class="fa fa-star-o"></i>
-                  </div>
-                  <p>€300.00</p>
-              </div>
-              <div class="col-4">
-                  <img src="./images/7.jpg" alt="">
-                  <h4>PlayStation 2 Slim</h4>
-                  <div class="rating">
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star-half-o"></i>
-                  </div>
-                  <p>€300.00</p>
-              </div>
-          </div>
-      </div>  
-        <!---------------TOP-BRANDS--------------->
-        <div class="brands">
-            <div class="small_container">
-                <h2 class="title">Top Brands</h2>
-                <div class="row">
-                    <div class="col-5">
-                        <img src="./images/brand1.png" alt="">
-                    </div>
-                     <div class="col-5">
-                        <img src="./images/brand2.png" alt="">
-                    </div>
-                     <div class="col-5">
-                        <img src="./images/brand3.png" alt="">
-                    </div>
-                     <div class="col-5">
-                        <img src="./images/brand4.png" alt="">
-                    </div>
-                     <div class="col-5">
-                        <img src="./images/brand5.png" alt="">
-                    </div>
-                </div>
             </div>
         </div>
 
+    </div>
 
 
-         <!---------------FOOTER--------------->
-         <div class="footer">
-             <div class="container">
-                 <div class="row">
-                     <div class="footer-col-1">
-                         <h3>Download Our App</h3>
-                         <p>Download AIGameShop App for Android and ios mobile devices</p>
-                         <div class="app_logo">
-                             <a href="#"><img src="./images/android.png" alt=""></a>
-                             <a href="#"><img src="./images/ios.png" alt=""></a>
-                         </div>
-                        
-                     </div>
-                     <div class="footer-col-2">
-                         <a href="#"><img src="./images/logo.png" alt=""></a>
-                         <p>Stay connected and reciever our offer and give aways on the Go!</p>
-                     </div>
-                     <div class="footer-col-3">
-                         <h3>Useful Links</h3>
-                         <ul>
-                             <li><a href="#"> Coupons</a></li>
-                              <li><a href="#"> Blog Posts</a></li>
-                               <li><a href="#"> Return Policy</a></li>
-                                <li><a href="#"> Join Affiliates</a></li>
-                            
-                         </ul>
-                     </div>
-                     <div class="footer-col-4">
-                         <h3>Follow Us</h3>
-                         <ul>
-                              <li><i class="fa fa-facebook-square" aria-hidden="true"></i><a href="https://www.facebook.com/">Facebook</a></li>
-                               <li><i class="fa fa-twitter-square" aria-hidden="true"></i><a href="https://www.twitter.com/">Twitter</a></li>
-                                <li><i class="fa fa-instagram" aria-hidden="true"></i><a href="https://www.instagram.com/">Instagram</a></li>
-                                 <li><i class="fa fa-youtube-square" aria-hidden="true"></i><a href="https://www.youtube.com/"> Youtube</a></li>
-                        
-                         </ul>
-                     </div>
-                 </div>
-                 <hr>
-                 <p class="copyright">© Copyright 2021 - AI Game Store | All Rights Reserved!</p>
-             </div>
-         </div>
-      </div>
 
-         <script>
-             var MenuItems = document.getElementById("MenuItems");
-             MenuItems.style.maxHeight = "0px";
+    <!--           PDF            -->
 
-             function menutoggle() {
-                if(MenuItems.style.maxHeight == "0px")
-                {
-                    MenuItems.style.maxHeight = "200px";
-                }
-                else
-                {
-                    MenuItems.style.maxHeight = "0px";
-                }
+    <div class="offer">
+        <div class="small_container">
+            <h2 class="title">Download Invoice</h2>
+            <div class="row">
+                <div class="col-2">
+                    <a href="./files/4_ACS61_Timetable.pdf" download>
+                        <img src="./images/pdf.png" alt="" width="160" height="350">
+                    </a>
+                </div>
+                <div class="col-2">
+                    <p>We also deliver your invoice to the email provided</p>
+                    <h1>Download Invoice</h1>
+                    <small>This invoice contains private information, please keep it out of reach of any third party.
+                        Also not that we do neither keep nor store any private information.</small>
+                    <a href="./files/4_ACS61_Timetable.pdf" class="btn">Download PDF Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-             }
-         </script>
-         <script>
-// When the user scrolls the page, execute myFunction 
-window.onscroll = function() {myFunction()};
+    <!--                       FEATURED-PRODUCTS               -->
+    <div class="small_container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="http://localhost/shop/single-product.html"><img src="./images/7.jpg" alt=""></a>
+                <a href="http://localhost/shop/single-product.html"></a>
+                <h4>PlayStation 2 Slim</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>€300.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/7.jpg" alt="">
+                <h4>PlayStation 2 Slim</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>€300.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/7.jpg" alt="">
+                <h4>PlayStation 2 Slim</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>€300.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./images/7.jpg" alt="">
+                <h4>PlayStation 2 Slim</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>€300.00</p>
+            </div>
+        </div>
+    </div>
 
-function myFunction() {
-  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-  var scrolled = (winScroll / height) * 100;
-  document.getElementById("myBar").style.width = scrolled + "%";
-}
-</script>
+
+    <!--                  TOP-BRANDS                    -->
+    <div class="brands">
+        <div class="small_container">
+            <h2 class="title">Top Brands</h2>
+            <div class="row">
+                <div class="col-5">
+                    <img src="./images/brand1.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="./images/brand2.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="./images/brand3.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="./images/brand4.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="./images/brand5.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--            FOOTER               -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download AIGameShop App for Android and ios mobile devices</p>
+                    <div class="app_logo">
+                        <a href="#"><img src="./images/android.png" alt=""></a>
+                        <a href="#"><img src="./images/ios.png" alt=""></a>
+                    </div>
+
+                </div>
+                <div class="footer-col-2">
+                    <a href="#"><img src="./images/logo.png" alt=""></a>
+                    <p>Stay connected and reciever our offer and give aways on the Go!</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li><a href="#"> Coupons</a></li>
+                        <li><a href="#"> Blog Posts</a></li>
+                        <li><a href="#"> Return Policy</a></li>
+                        <li><a href="#"> Join Affiliates</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><i class="fa fa-facebook-square" aria-hidden="true"></i><a
+                                href="https://www.facebook.com/">Facebook</a></li>
+                        <li><i class="fa fa-twitter-square" aria-hidden="true"></i><a
+                                href="https://www.twitter.com/">Twitter</a></li>
+                        <li><i class="fa fa-instagram" aria-hidden="true"></i><a
+                                href="https://www.instagram.com/">Instagram</a></li>
+                        <li><i class="fa fa-youtube-square" aria-hidden="true"></i><a href="https://www.youtube.com/">
+                                Youtube</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">© Copyright 2021 - AI Game Store | All Rights Reserved!</p>
+        </div>
+    </div>
+
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else {
+                MenuItems.style.maxHeight = "0px";
+            }
+
+        }
+    </script>
+    
 </body>
-</html
+
+</html>

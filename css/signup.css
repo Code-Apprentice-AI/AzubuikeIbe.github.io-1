@@ -213,7 +213,7 @@ btn-register:hover {
     margin: 100px auto;
     border: 1px solid #ccc;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
-    rgba(0, 0, 0, 0,3) 0px 1px 3px -1px;
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     text-align: center;
     font-size: 1.25rem;
     background: #fff;
@@ -441,64 +441,3 @@ Responsive Design
 }
 
 
-@media screen and (max-width: 600px) {
-  #topnav a {
-    float: center;
-    width: 100%;
-	text-align: left;
-	
-  }
-}
-@media screen and (max-width: 1000px) {
-  #topnav a {
-    float: center;
-    width: 100%;
-  }
-}
-
-#topnav a:nth-child(2) {
-  background: #ec1f48;
-  color: #fff;
-} 
-
-#topnav a:first-child {
-	background: #3e4067;
-    color: #fff;
-}
-
-#topnav a:last-child {
-	background: #fff;
-    color: #000;
-}
-
-
-
-/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
-@media screen and (max-width: 600px) {
-  .menu a, .menu input[type=text] {
-    float: none;
-    display: block;
-    text-align: left;
-    width: 100%;
-    margin: 0;
-    padding: 14px;
-  }
-  .menu input[type=text] {
-    border: 1px solid #ccc;
-  }
-}
-	
-	
-@media screen and (max-width: 1000px) {
-  .mainnav {
-    float: center;
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .mainnav a {
-    float: left;
-    width: 100%;
-  }
-}

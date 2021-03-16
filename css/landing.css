@@ -59,12 +59,11 @@ ul {
 .btn {
     padding: 0.5rem 1rem;
     outline: none;
-    margin: none;
 }
 /* Navbar */
 
 header {
-    height: var(--nav-height);
+    height: 60px;
     background-color: var(--primary-color);
 }
 
@@ -139,7 +138,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - var(--nav-height));
+    height: calc(100vh - 60px);
 }
 
 .hero .hero__intro {
@@ -332,7 +331,7 @@ btn-register:hover {
     margin: 100px auto;
     border: 1px solid #ccc;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
-    rgba(0, 0, 0, 0,3) 0px 1px 3px -1px;
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     text-align: center;
     font-size: 1.25rem;
     background: #fff;
@@ -643,13 +642,15 @@ body {
     }
 
     .hero {
-    height: calc(160vh - var(--nav-height));
+    height: calc(160vh - 60px);
     }
 
     .hero .hero__intro h1 {
     line-height: 1;
 }
+
 }
+
 
 @media screen and (max-width: 375px) {
 
@@ -670,7 +671,7 @@ body {
     }   
 
    .hero {
-    height: calc(100vh - var(--nav-height));
+    height: calc(100vh - 60px);
     }
 
     .hero .hero__intro h1 {
